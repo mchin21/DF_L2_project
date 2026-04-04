@@ -276,7 +276,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="$String(R_F)" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
@@ -286,8 +286,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="cbFile = &quot;resources/cb1.xlsx&quot;;&amp;#10;msg = R_F.toString();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="#cbFile = 'resources/cb1.xlsx'&amp;#10;cbFile = 'resources/cb1.xlsx'&amp;#10;msg = str(R_F)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="cbFile = &quot;resources/cb1.xlsx&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#cbFile = 'resources/cb1.xlsx'&amp;#10;cbFile = 'resources/cb1.xlsx'" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -365,7 +365,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="$String(R_F)" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
@@ -375,8 +375,8 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="cbFile2 = &quot;resources/cb2.xlsx&quot;;&amp;#10;msg = R_F.toString();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="#cbFile2 = 'resources/cb2.xlsx'&amp;#10;cbFile2 = 'resources/cb2.xlsx'&amp;#10;msg = str(R_F)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="cbFile2 = &quot;resources/cb2.xlsx&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="#cbFile2 = 'resources/cb2.xlsx'&amp;#10;cbFile2 = 'resources/cb2.xlsx'" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -518,7 +518,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="$String(R_F)" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
@@ -526,8 +526,8 @@
       <CodeComponent name="define_cb3" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="#cbFile3 = 'resources/cb3.xlsx'&amp;#10;cbFile3 = 'resources/cb3.xlsx'&amp;#10;msg = str(R_F)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="cbFile3 = &quot;resources/cb3.xlsx&quot;;&amp;#10;msg = R_F.toString();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="#cbFile3 = 'resources/cb3.xlsx'&amp;#10;cbFile3 = 'resources/cb3.xlsx'&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="cbFile3 = &quot;resources/cb3.xlsx&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -607,7 +607,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="$msg" valType="str" updates="set every repeat" name="text"/>
+        <Param val="$String(R_F)" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
@@ -615,8 +615,8 @@
       <CodeComponent name="define_cb4" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="#cbFile4 = 'resources/cb4.xlsx'&amp;#10;cbFile4 = 'resources/cb4.xlsx'&amp;#10;msg = str(R_F)" valType="extendedCode" updates="constant" name="Begin Experiment"/>
-        <Param val="cbFile4 = &quot;resources/cb4.xlsx&quot;;&amp;#10;msg = R_F.toString();&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="#cbFile4 = 'resources/cb4.xlsx'&amp;#10;cbFile4 = 'resources/cb4.xlsx'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="cbFile4 = &quot;resources/cb4.xlsx&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
@@ -804,7 +804,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Now we are going to test your memory. &amp;#10;&amp;#10;You will see many words. Some of which you have seen, and some you have not seen them in the experiment. If you do not remember seeing that word in the experiment, you should say that is NEW. However, if you remember seeing the word today, regardless of instructions to remember or forget, you should say that is OLD. In other words, ignore the instructions to remember or forget. As long as you remember seeing a word, you should say that it is OLD. Press [space] to begin the test." valType="str" updates="constant" name="text"/>
+        <Param val="Now we are going to test your memory. &amp;#10;&amp;#10;You will see many words. Some of which you have seen, and some you have not seen them in the experiment. If you do not remember seeing that word in the experiment, you should say that is NEW by pressing [M] on your keyboard. However, if you remember seeing the word today, regardless of instructions to remember or forget, you should say that is OLD by pressing [Z] on your keyboard. In other words, ignore the instructions to remember or forget. As long as you remember seeing a word, you should say that it is OLD. Press [space] to begin the test." valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
@@ -1232,7 +1232,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Press&amp;#10;'Y' for 'Yes&quot;&amp;#10;'N' for 'No'" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="Press&amp;#10;“Y” for “Yes”&amp;#10;“N” for “No”" valType="extendedStr" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="code" updates="constant" name="wrapWidth"/>
@@ -1350,7 +1350,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Press&amp;#10;'Y' for 'Yes&quot;&amp;#10;'N' for 'No'" valType="extendedStr" updates="constant" name="text"/>
+        <Param val="Press&amp;#10;“Y” for “Yes”&amp;#10;“N” for “No”" valType="extendedStr" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="code" updates="constant" name="wrapWidth"/>
@@ -1382,6 +1382,70 @@
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="code" updates="constant" name="wrapWidth"/>
       </TextComponent>
+    </Routine>
+    <Routine name="training_instruction">
+      <RoutineSettingsComponent name="training_instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="training_instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="training_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="training_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will now see a variety of words.&amp;#10;&amp;#10;Each word will be followed by either the letter R or F. If you see the letter R, you should try to REMEMBER that word. If you see the letter F, you should try to FORGET seeing that word. This information will be important later in the experiment. Press [space] to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
     </Routine>
     <CounterbalanceRoutine name="cbingDFv2">
       <Param name="conditionsFile" updates="None" val="" valType="file"/>
@@ -1423,6 +1487,7 @@
     <CounterbalanceRoutine name="cbingDFv2"/>
     <Routine name="code"/>
     <Routine name="trial"/>
+    <Routine name="training_instruction"/>
     <LoopInitiator loopType="TrialHandler" name="trials1">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'ID': 1, 'word': 'LEADER', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 2, 'word': 'SOFTLY', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 3, 'word': 'ADDRESS', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 4, 'word': 'RIDING', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 5, 'word': 'PARTNER', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 6, 'word': 'POETIC', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 7, 'word': 'SLIGHT', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 8, 'word': 'SERVING', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 9, 'word': 'SOLDIER', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 10, 'word': 'ADVISED', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 11, 'word': 'ANGRY', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 12, 'word': 'BELIEF', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 13, 'word': 'WEATHER', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 14, 'word': 'GRAVE', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 15, 'word': 'EMPTY', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 16, 'word': 'REGION', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 17, 'word': 'SUDDEN', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 18, 'word': 'FLIGHT', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 19, 'word': 'BRANCH', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 20, 'word': 'BURNING', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 21, 'word': 'SHOCK', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 22, 'word': 'ENTER', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 23, 'word': 'DECLINE', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'F'}, {'ID': 24, 'word': 'LEADING', 'easy_hard': 'easy', 'old_new': 'old', 'R_F': 'R'}, {'ID': 25, 'word': 'PROFANE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 26, 'word': 'PUERILE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 27, 'word': 'RATIFY', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 28, 'word': 'REFUTE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 29, 'word': 'REMORSE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 30, 'word': 'REPLETE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 31, 'word': 'SEMINAL', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 32, 'word': 'SQUALID', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 33, 'word': 'TORPID', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 34, 'word': 'AMIABLE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 35, 'word': 'BANAL', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 36, 'word': 'APPEASE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 37, 'word': 'AVARICE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 38, 'word': 'COERCE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 39, 'word': 'EPITOME', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 40, 'word': 'INEPT', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 41, 'word': 'LIBEL', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 42, 'word': 'MOLLIFY', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 43, 'word': 'PACIFY', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 44, 'word': 'PARAGON', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 45, 'word': 'PROFUSE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 46, 'word': 'PROSAIC', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}, {'ID': 47, 'word': 'PRUDENT', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'R'}, {'ID': 48, 'word': 'REBUKE', 'easy_hard': 'hard', 'old_new': 'old', 'R_F': 'F'}]" valType="str"/>
@@ -1430,7 +1495,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="str(group1_trials_reps)" valType="num"/>
+      <Param name="nReps" updates="None" val="String(group1_trials_reps)" valType="num"/>
       <Param name="name" updates="None" val="trials1" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
@@ -1443,7 +1508,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="str(group2_trials_reps)" valType="num"/>
+      <Param name="nReps" updates="None" val="String(group2_trials_reps)" valType="num"/>
       <Param name="name" updates="None" val="trials2" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
@@ -1456,7 +1521,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="str(group3_trials_reps)" valType="code"/>
+      <Param name="nReps" updates="None" val="String(group3_trials_reps)" valType="code"/>
       <Param name="name" updates="None" val="trials3" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
@@ -1469,7 +1534,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="str(group4_trials_reps)" valType="code"/>
+      <Param name="nReps" updates="None" val="String(group4_trials_reps)" valType="code"/>
       <Param name="name" updates="None" val="trials4" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>
